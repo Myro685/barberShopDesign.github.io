@@ -21,9 +21,9 @@ body{
 
 #go-on-top-button{
     position: fixed;
-    right: 0;
+    left: 0;
     bottom: 0;
-    transform: translateX(-20px) translateY(-20px);
+    transform: translateX(20px) translateY(-20px);
     border-radius: 50px;
     border: none;
     background-color: #ebc9ad;
@@ -93,19 +93,21 @@ ul{
     transition: 1s;
     border-bottom: 1px solid rgb(184, 20, 20);
 }
-.hidee{
+.hide{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: right;
     z-index: 10;
     width: 100%;
     padding: 0;
     transform: translateY(-200%);
 }
-.showw{
+.show{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: right;
     z-index: 10;
     width: 100%;
     padding: 0;
@@ -117,16 +119,19 @@ li{
     background-color: white;
     cursor: pointer;
     text-align: center;
-    font-size: 2rem;
 }
-.showw li:hover{
+.show li:hover{
     color: rgb(184, 20, 20);
 }
 
 header{
     padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    height: 40vh;
+    height: 20vh;
+    padding-bottom: 100px;
 }
 .header-h1{
     font-family: 'Bebas Neue', cursive;
@@ -341,7 +346,7 @@ footer{
     ul{
         transition: 0s;
     }
-    .showw{
+    .show{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
