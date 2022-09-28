@@ -94,12 +94,7 @@ ul{
     border-bottom: 1px solid rgb(184, 20, 20);
 }
 .hidee{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 10;
-    width: 100%;
-    padding: 0;
+    
     transform: translateY(-200%);
 }
 .showw{
@@ -118,7 +113,7 @@ li{
     cursor: pointer;
     text-align: center;
 }
-.show li:hover{
+.showw li:hover{
     color: rgb(184, 20, 20);
 }
 
@@ -344,7 +339,7 @@ footer{
     ul{
         transition: 0s;
     }
-    .show{
+    .showw{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
