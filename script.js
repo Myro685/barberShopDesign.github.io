@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
     const windowWidth = window.innerWidth;
     const navbar = document.getElementById("navbar");
     if (windowWidth >= 1000) {
-        navbar.className = "show";
+        navbar.className = "showw";
     }
 });
   
@@ -17,14 +17,14 @@ function ShowNavbar() {
     const one = document.getElementById('one');
     const two = document.getElementById('two');
     const three = document.getElementById('three');
-    if (navbar.className == "hide") {
-        navbar.className = "showme";
+    if (navbar.className == "hidee") {
+        navbar.className = "showw";
         one.className = "one";
         two.className = "two";
         three.className = "three";
 
     } else {
-        navbar.className = "hide";
+        navbar.className = "hidee";
         one.className = "";
         two.className = "";
         three.className = "";

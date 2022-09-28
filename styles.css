@@ -93,21 +93,19 @@ ul{
     transition: 1s;
     border-bottom: 1px solid rgb(184, 20, 20);
 }
-.hide{
+.hidee{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: right;
     z-index: 10;
     width: 100%;
     padding: 0;
     transform: translateY(-200%);
 }
-.show{
+.showw{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: right;
     z-index: 10;
     width: 100%;
     padding: 0;
